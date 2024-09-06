@@ -1,12 +1,13 @@
 import { useState } from 'react';
 import { GoHome, GoBell, GoCalendar, GoCommentDiscussion, GoStar, GoRocket, GoGlobe, GoBookmark } from 'react-icons/go';
+import StarMap from './starmap';
 
 // Dummy components to represent different sections
 const Profile = () => <div>Profile Component</div>;
 const Notifications = () => <div>Notifications Component</div>;
 const Events = () => <div>Events Component</div>;
 const Chat = () => <div>Chat Component</div>;
-const StarMap = () => <div>Star Map Component</div>;
+// const StarMap = () => <div>Star Map Component</div>;
 const SpaceMissions = () => <div>Space Missions Component</div>;
 const CelestialImages = () => <div>Celestial Images Component</div>;
 const NewDiscoveries = () => <div>New Discoveries Component</div>;
@@ -57,7 +58,7 @@ export default function Sidebar() {
       </div>
 
       {/* Main content area */}
-      <div className="flex-1 p-5">
+      <div className="flex-1">
         {menuItems.find((item) => item.label === selectedItem)?.component}
       </div>
     </div>
