@@ -3,6 +3,7 @@ import logo from "../assets/whitelogo.png";
 import profile from "../assets/profile.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch, faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { GoCopilot } from "react-icons/go";
 
 function Topsection() {
   return (
@@ -63,3 +64,4 @@ function Topsection() {
 }
 
 export default Topsection;
+ 
