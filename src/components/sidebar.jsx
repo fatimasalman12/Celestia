@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import { GoHome, GoBell, GoCalendar, GoCommentDiscussion, GoStar, GoRocket, GoGlobe, GoBookmark } from 'react-icons/go';
 import StarMap from './starmap';
+import Events from './events';
 
 // Dummy components to represent different sections
 const Profile = () => <div>Profile Component</div>;
 const Notifications = () => <div>Notifications Component</div>;
-const Events = () => <div>Events Component</div>;
+// const Events = () => <div>Events Component</div>;
 const Chat = () => <div>Chat Component</div>;
 // const StarMap = () => <div>Star Map Component</div>;
 const SpaceMissions = () => <div>Space Missions Component</div>;
