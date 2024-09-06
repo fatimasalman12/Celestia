@@ -17,10 +17,10 @@ function Topsection() {
                 Celestia
               </li>
               <li>
-                <div className="relative mx-[330px] my-3">
+                <div className="relative mx-[310px] my-3">
                   <input
                     type="text"
-                    className="h-[35px] w-[450px] rounded-[13px] border bg-[rgba(56,55,55,0.445)] border-[rgba(56,55,55,0.445)] p-2 pl-10 text-white"
+                    className="h-[35px] w-[470px] rounded-[11px] border bg-[rgba(56,55,55,0.445)] border-[rgba(56,55,55,0.445)] p-2 pl-10 text-white"
                     placeholder="Search here "
                   />
                   <FontAwesomeIcon
